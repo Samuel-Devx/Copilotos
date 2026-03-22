@@ -1,10 +1,10 @@
-# 🧩 Modos do Copiloto (Ask, Plan, Agent e Study)
+# Modos do Copiloto (Ask, Plan, Agent e Study)
  
 O Copiloto oferece diferentes modos de interação para você escolher como quer trabalhar: desde tirar dúvidas sem mexer no código, até editar trechos específicos, planejar mudanças maiores ou delegar tarefas mais complexas com um modo mais autônomo. A ideia é simples: você seleciona o modo que melhor combina com seu objetivo no momento e ganha velocidade com mais controle.
  
 ---
  
-## ❓ Ask
+## Ask
  
 O modo Ask é para fazer perguntas e entender coisas, sem alterar seu código. Você pode perguntar sobre um arquivo específico, um erro, uma função, uma stack trace ou até conceitos gerais.
  
@@ -22,11 +22,11 @@ A personalidade do modo Ask é a **Ellie** (de *The Last of Us*): direta, sarcá
  
 
  
-📄 Prompt: [prompts/prompt-ask.md](./prompts/prompt-ask.md)`
+ Prompt: [prompts/prompt-ask.md](./prompts/prompt-ask.md)`
  
 ---
  
-## 🧭 Plan
+##  Plan
  
 Quando você pede algo mais complexo, o Copiloto entra em modo de planejamento — ele pensa e descreve os passos antes de sair codando.
  
@@ -50,34 +50,34 @@ A personalidade do modo Plan é a **Cortana**: calma, confiante, levemente espir
  
 | Seção | Conteúdo |
 |---|---|
-| ✅ Objetivo | O que será alcançado (1–2 linhas) |
-| 🧭 Contexto e Assunções | O que foi assumido e o que precisa ser confirmado |
-| 📦 Escopo | O que está dentro e fora do plano |
-| 🧩 Estratégia | Abordagem geral e alternativas (2–6 bullets) |
-| 🗂️ Arquivos afetados | Lista provável de pastas e arquivos |
-| 🪜 Plano passo a passo | Steps incrementais com checkpoints |
-| 🧪 Testes e validação | Como validar, edge cases, comandos sugeridos |
-| ⚠️ Riscos e mitigação | Riscos técnicos, de segurança e de performance |
-| ❓ Perguntas | Máximo 3, só se necessário |
-| ▶️ Próximo passo | O que aprovar para seguir para implementação |
+|  Objetivo | O que será alcançado (1–2 linhas) |
+|  Contexto e Assunções | O que foi assumido e o que precisa ser confirmado |
+|  Escopo | O que está dentro e fora do plano |
+| Estratégia | Abordagem geral e alternativas (2–6 bullets) |
+|  Arquivos afetados | Lista provável de pastas e arquivos |
+|  Plano passo a passo | Steps incrementais com checkpoints |
+|  Testes e validação | Como validar, edge cases, comandos sugeridos |
+|  Riscos e mitigação | Riscos técnicos, de segurança e de performance |
+|  Perguntas | Máximo 3, só se necessário |
+|  Próximo passo | O que aprovar para seguir para implementação |
  
 **Stack coberta:** Java + Spring Boot · Angular · Node.js + TypeScript · Express · Maven · Spring Test · Mockito · JUnit · Jest/Vitest · ESLint · Prettier
  
-📄 Prompt: [prompts/prompt-ask.md](./prompts/prompt-plan.md)
+ Prompt: [prompts/prompt-ask.md](./prompts/prompt-plan.md)
  
 ---
  
-## 🤖 Agent
+## Agent
  
 O Agent é o modo mais "autônomo". Ele pode navegar pelo projeto, criar arquivos, modificar múltiplos pontos e manter contexto entre passos, como se fosse um dev júnior trabalhando com você.
  
 Você dá um objetivo (ex.: *"implemente login com JWT"*) e ele decide o que precisa ser feito em vários arquivos para chegar lá.
  
-📄 Prompt: [prompts/prompt-ask.md](./prompts/prompt-agent.md)
+ Prompt: [prompts/prompt-ask.md](./prompts/prompt-agent.md)
  
 ---
  
-## 📚 Study
+##  Study
  
 O modo Study é focado em aprendizado ativo, não só em chegar à resposta ou ao código final.
  
@@ -90,22 +90,22 @@ Em vez de simplesmente explicar ou executar, ele:
  
 Funciona quase como um tutor particular.
  
-📄 Prompt: [prompts/prompt-ask.md](./prompts/prompt-ask.md)
+ Prompt: [prompts/prompt-ask.md](./prompts/prompt-ask.md)
  
 ---
  
-## 🧠 Resumo mental rápido
+##  Resumo mental rápido
  
 | Modo | Objetivo | Age no código? | Personalidade |
 |---|---|---|---|
-| ❓ Ask | Entender e diagnosticar | ❌ Nunca | Ellie — direta e sarcástica |
-| 🧭 Plan | Planejar antes de agir | ❌ Só planeja | Cortana — calma e precisa |
-| 🤖 Agent | Executar tarefas grandes | ✅ Sim, de forma autônoma | — |
-| 📚 Study | Aprender ativamente | ❌ Foca no raciocínio | — |
+|  Ask | Entender e diagnosticar | ❌ Nunca | Ellie — direta e sarcástica |
+|  Plan | Planejar antes de agir | ❌ Só planeja | Cortana — calma e precisa |
+|  Agent | Executar tarefas grandes | ✅ Sim, de forma autônoma | — |
+|  Study | Aprender ativamente | ❌ Foca no raciocínio | — |
  
 ---
  
-## ⚙️ Stack padrão
+##  Stack padrão
  
 Todos os prompts assumem esta stack como base:
  
