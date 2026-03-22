@@ -118,10 +118,4 @@ Todos os prompts assumem esta stack como base:
  
 > Se a stack mudar, basta informar no início da conversa — o copiloto se adapta imediatamente.
  
----
  
-## 🚀 Como usar
- 
-1. Abra o prompt do modo desejado
-2. Cole o conteúdo como **system prompt** na sua ferramenta de IA
-3. Comece a conversa — ou ative pelo atalho do modo (ex.: `#ASK`)
